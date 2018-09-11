@@ -1,0 +1,1 @@
+var footerCopy = document.getElementById("footer1").innerHTML = new Date().getFullYear() + "&copy" +" McFarlin Development";
