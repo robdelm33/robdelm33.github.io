@@ -1,0 +1,103 @@
+:root {
+    background-color: #9EDCA2;
+}
+
+body {
+    background: #9EDCA2;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Lobster, cursive;
+    font-size: 4em;
+    border: 5px solid black;
+    text-align: center;
+    color: white;
+    background: #002B03;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+h2 {
+    background: #0C5811;
+    text-align: center;
+    border: 5px solid black;
+    color: white;
+    font-family: 'Indie Flower', monospace;
+    font-size: 2em;
+    border-radius: 25px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+    transition: all 1s;
+    border-radius: 10%;
+}
+
+img:hover {
+    transform: scale(1.1) /*rotate(350deg)*/;
+}
+
+.image-border {
+    border: 10px solid black;
+    padding: 10px 10px 0px 10px;
+    margin: 1px;
+    border-radius: 25px;
+}
+
+.section-title {
+    width: 100%;
+    border-color: black;
+    color: #9EDCA2;
+    background: #002B03;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+#theropods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid black;
+    text-align: center;
+    background: #5EB364;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+#sauropods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid black;
+    text-align: center;
+    background: #5EB364;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+button {
+    font-weight: bold;
+    color: #9EDCA2;
+    background: #002B03;
+    margin: 1px;
+}
+
+.form-inline {
+    background: #9EDCA2;
+}
+.navbar {
+    background: #9EDCA2;
+}
