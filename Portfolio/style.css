@@ -1,8 +1,7 @@
 body {
-    background: url("../Photos/ComingSoon.jpg") no-repeat center center fixed;
+    background: lightgray;
     background-size: cover;
     height: 100%;
-    background-color: White;
 }
 .MainHeader {
     font-weight: bolder;
@@ -51,7 +50,7 @@ footer {
 
 
 h2 {
-    background: #0C5811;
+    background: black;
     text-align: center;
     border: 5px solid black;
     color: white;
@@ -77,15 +76,6 @@ img:hover {
     padding: 10px 10px 0px 10px;
     margin: 1px;
     border-radius: 25px;
-}
-
-.section-title {
-    width: 100%;
-    border-color: black;
-    color: #9EDCA2;
-    background: #002B03;
-    border-radius: 25px;
-    margin: 5px;
 }
 
 .container1 {
