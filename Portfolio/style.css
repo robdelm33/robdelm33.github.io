@@ -48,3 +48,48 @@ footer {
     text-align: center;
     font-size-adjust: .75;
 }
+
+
+h2 {
+    background: #0C5811;
+    text-align: center;
+    border: 5px solid black;
+    color: white;
+    font-family: 'Indie Flower', monospace;
+    font-size: 2em;
+    border-radius: 25px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+    transition: all 1s;
+    border-radius: 10%;
+}
+
+img:hover {
+    transform: scale(1.1) /*rotate(350deg)*/;
+}
+
+.image-border {
+    border: 10px solid black;
+    padding: 10px 10px 0px 10px;
+    margin: 1px;
+    border-radius: 25px;
+}
+
+.section-title {
+    width: 100%;
+    border-color: black;
+    color: #9EDCA2;
+    background: #002B03;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
