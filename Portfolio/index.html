@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body class="querySetter">
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
             <!--<a class="navbar-brand" href="#">Navbar</a>
                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@
         </nav>
         
         
-        <nav class="navbar navbar-expand-lg navbar-dark querySetter" style="background-color: lightgray">
+<!--        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: lightgray">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -50,7 +50,7 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav>-->
         
         
         
@@ -59,9 +59,14 @@
                 <h1 class="MainHeader">Portfolio</h1>
                 <br>
             </p>
-
         </div>
         <div class="container1">
+            <div class="image-border">
+                <input type="button" class="button-bg-blue" value="Blue" onclick="navbarBlue();" />
+                <input type="button" class="button-bg-red" value="Red" onclick="navbarRed();" />
+                <input type="button" class="button-bg-green" value="Green" onclick="navbarGreen();" />
+                <h2>Background Color</h2>
+            </div>
             <div class="image-border">
                 <a href="BaylorsDinoSite/index.html" target="_blank"><img src="https://www.goodfreephotos.com/albums/vector-images/large-sauropod-dinosaur-vector-clipart.jpg" alt="Dinosaur Website"></a>
                 <h2>Dinosaur Website</h2>

@@ -85,19 +85,36 @@ img:hover {
 }
 
 .button-bg-blue {
-    background: blue;
-    border: 3px solid black;
-    color: white;
+    width: 133px;
+    height: 300px;
+    margin-bottom: 10px;
+    transition: all 1s;
+    border-radius: 10%;
+    background-color: blue;
 }
 
 .button-bg-red {
-    background: red;
-    border: 3px solid black;
-    color: white;
+    width: 134px;
+    height: 300px;
+    margin-bottom: 10px;
+    transition: all 1s;
+    border-radius: 10%;
+    background-color: red;
 }
 
 .button-bg-green {
-    background: green;
-    border: 3px solid black;
-    color: white;
+    width: 133px;
+    height: 300px;
+    margin-bottom: 10px;
+    transition: all 1s;
+    border-radius: 10%;
+    background-color: green;
+}
+
+.button-list {
+    list-style-type: none;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 10%;
 }
