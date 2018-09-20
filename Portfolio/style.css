@@ -85,30 +85,27 @@ img:hover {
 }
 
 .button-bg-blue {
-    width: 133px;
-    height: 300px;
+    width: 400px;
+    height: 93px;
     margin-bottom: 10px;
-    transition: all 1s;
-    border-radius: 10%;
     background-color: blue;
+    flex-direction: column;
 }
 
 .button-bg-red {
-    width: 134px;
-    height: 300px;
+    width: 400px;
+    height: 94px;
     margin-bottom: 10px;
-    transition: all 1s;
-    border-radius: 10%;
     background-color: red;
+    flex-direction: column;
 }
 
 .button-bg-green {
-    width: 133px;
-    height: 300px;
+    width: 400px;
+    height: 93px;
     margin-bottom: 10px;
-    transition: all 1s;
-    border-radius: 10%;
     background-color: green;
+    flex-direction: column;
 }
 
 .button-list {
