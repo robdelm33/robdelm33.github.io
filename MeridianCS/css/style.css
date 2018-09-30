@@ -1,0 +1,24 @@
+/* Colors:    https://flatuicolors.com/palette/fr         */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background:#82ccdd;
+}
+
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a {
+    color: #fad390;
+}
+
+.navbar {
+    background: #0c2461;
+}
+
+.navbar a:hover {
+    color: #6a89cc;
+}
