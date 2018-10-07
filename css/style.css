@@ -6,6 +6,8 @@ body {
 	font-size: 14px;
 	color: #2d3436;
 	background-color: #dfe6e9;
+	padding: 0;
+	margin: 0;
 }
 
 .overlay {
@@ -62,6 +64,15 @@ body {
 .titleMessage .heading .sub {
 	font-size: 33px;
 }
+
+.titleMessage .heading .mainValues {
+	font-size: 80px;
+}
+
+.titleMessage .heading .subValues {
+	font-size: 40px;
+}
+
 
 .section {
 	padding: 50px 0px;
@@ -184,7 +195,7 @@ body {
 .copyright {
 	background-color: #b2bec3;
 	color: #2d3436;
-	padding: 20px 5px;
+	padding: 40px 10px;
 	font-weight: 800;
 }
 

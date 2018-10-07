@@ -11,10 +11,30 @@ $(document).ready(function() {
 		play: 5000,
 		pagination: false
 	});
+	
+	$('#values').superslides({
+		animation: 'fade',
+		play: 5000,
+		pagination: false
+	});
+
 
 	var typed = new Typed(".typed", {
 		strings: ["Accountant.", "Web Developer.", "Process Automation Specialist.", "Lifelong Learner."],
 		typeSpeed: 60,
+		loop: true,
+		startDelay: 1000,
+		showCursor: false
+	});
+	
+	var values = new Typed(".values", {
+		strings: ["Relentlessly pursue purposeful progress.", 
+				"Give more in value than you receive in compensation.",
+				"Everyone sweeps the floor.",
+				"Treat every experience as an opportunity to learn.",
+				"Strive for integrity and humility.",
+				"Share bad news sooner rather than later."],
+		typeSpeed: 100,
 		loop: true,
 		startDelay: 1000,
 		showCursor: false
@@ -82,6 +102,8 @@ $(document).ready(function() {
     
     const nav = $("#navigation");
     const navTop = nav.offset().top;
+    const val = $("#values");
+    const valTop = val.offset().top;
     
     $(window).on("scroll", stickyNavigation);
     
